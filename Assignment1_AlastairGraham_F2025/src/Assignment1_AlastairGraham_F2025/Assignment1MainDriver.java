@@ -14,7 +14,7 @@ public class Assignment1MainDriver {
 			
 		try (Scanner scan = new Scanner(System.in)) {
 			while(true) {
-			System.out.printf("Please select the Application you would like to use: \n 1 = Grade Calculator \n 2 = Disctance Converter \n 3 = Volume Converter \n 4 = Currency Calculator \n 0 = Close Application \n");
+			System.out.printf("\nPlease select the Application you would like to use: \n 1 = Grade Calculator \n 2 = Distance Converter \n 3 = Volume Converter \n 4 = Currency Calculator \n 0 = Close Application \n");
 			System.out.print("Enter your choice: ");
 			selection = scan.nextInt();
 				if (selection == 0) {

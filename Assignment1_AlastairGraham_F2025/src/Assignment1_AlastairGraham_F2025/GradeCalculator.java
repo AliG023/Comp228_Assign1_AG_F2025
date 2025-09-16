@@ -33,7 +33,7 @@ public class GradeCalculator {
 
 		avg = total / courseQty;
 			
-		System.out.print(name + " recieved an average grade of: \n");
+		System.out.print(name + " recieved an average grade of: ");
 		if (avg >= 90) {
 			System.out.print("A+");
 		} else if (avg >= 80 && avg < 90) {
